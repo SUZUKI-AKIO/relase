@@ -1,0 +1,84 @@
+
+
+  body {
+    background-color: #ffffff;
+    font-size: 14px;
+  }
+
+  .login-container {
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 5px;
+    width: 80%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .login-container h1 {
+    text-align: left;
+    background-color: #f2f2f2;
+    color: #000000;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 0;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+    .form-group {
+    text-align: left;
+    margin-bottom: 20px;
+    padding-left: 108px;
+   }
+
+  .form-group label {
+    display: inline-block;
+    width: 100px;
+    font-weight: bold;
+    margin-left: 8px; /* 8文字分右にずらす */
+  }
+
+  .form-group input {
+    display: inline-block;
+    width: 230px;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #cccccc;
+  }
+
+  .form-group .checkbox-group {
+    display: flex;
+    align-items:center;
+    flex-wrap: nowrap; /* ラベルを折り返さずに表示する */
+  }
+
+  .form-group .checkbox-group label {
+    margin-left: -100px;
+  }
+
+  .form-group .forgot-password {
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: middle; /* ボタンと同じ高さに合わせる */
+  }
+
+  .form-group .forgot-password a {
+    white-space: nowrap;
+  }
+
+  .form-group .login-actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .form-group .btn-login {
+    margin-left: 94px;
+    width: 80px; /* ボタンの幅を小さくする */
+    padding: 8px; /* ボタンのパディングを小さくする */
+    vertical-align: middle; /* リンクと同じ高さに合わせる */
+    border-radius: 10px; /* ボタンの角を丸くする */
+    font-weight: bold; /* テキストを太くする */
+  }
+
